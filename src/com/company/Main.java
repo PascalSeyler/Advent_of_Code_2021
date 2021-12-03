@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.Day1.Day1;
+import com.company.Day2.Day2;
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,9 +12,11 @@ public class Main {
         System.out.println("Please enter day to solve:");
         int day = sc.nextInt();
         switch (day){
-            case 1:
+            case 1: Day1.solve1();
+                    Day1.solve2();
                 break;
-            case 2:
+            case 2: Day2.solve1();
+                    Day2.solve2();
                 break;
             case 3:
                 break;
